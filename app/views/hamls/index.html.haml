@@ -1,0 +1,4 @@
+%h1 hello
+- @color_words.each do |color_word|
+  %div{:style => "border:1px solid #{color_word[0]}; width:100px; height: 100px;"}
+    %p{:style => "color:#{color_word[0]}"}= color_word[1]

@@ -1,0 +1,2 @@
+module HamlsHelper
+end
